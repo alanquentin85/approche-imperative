@@ -21,6 +21,33 @@ public class ExerciceBouclesEtTests {
             System.out.println(array[i]);
         }
 
-        System.out.println("----------Combiner une boucle et un test de manière a afficher que les entiers supérieurs a 3  ---------");
+        System.out.println("----------Combiner une boucle et un test de manière a afficher que les entiers supérieurs a 3---------");
+        for(int i = 0; i < array.length; i++)
+        {
+           if (array[i]>3){
+               System.out.println(array[i]);
+           }
+        }
+        System.out.println("----------Combiner une boucle et un test de manière à n’afficher que les entiers pairs---------");
+        for(int i = 0; i < array.length; i++)
+        {
+            if (array[i] % 2 == 0){
+                System.out.println(array[i]);
+            }
+        }
+        System.out.println("----------• Combiner une boucle et un test de manière à n’afficher que valeurs des index pairs---------");
+        for(int i = 0; i < array.length; i++)
+        {
+            if (array[i] % 2 == 0){
+                System.out.println(array[i]);
+            }
+        }
+        System.out.println("----------•Combiner une boucle et un test de manière à n’afficher que les entiers impairs---------");
+        for(int i = 0; i < array.length; i++)
+        {
+            if (array[i] % 2 != 0){
+                System.out.println(array[i]);
+            }
+        }
     }
 }
